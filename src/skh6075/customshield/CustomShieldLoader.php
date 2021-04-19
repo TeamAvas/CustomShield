@@ -64,7 +64,7 @@ final class CustomShieldLoader extends PluginBase implements Listener{
         $this->setLeftShield($player, $this->getLeftShield($player) - $ev->getAmount());
 
         $player->getWorld()->addSound($player->getPosition(), new DoorBumpSound());
-        $player->sendActionBarMessage("Youd Left Shield: " . $this->getLeftShield($player));
+        $player->sendActionBarMessage("Your Left Shield: " . $this->getLeftShield($player));
     }
 
     private function isConsistentEvent(EntityDamageEvent $event): bool{
