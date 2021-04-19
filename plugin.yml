@@ -1,0 +1,6 @@
+name: CustomShield
+main: skh6075\customshield\CustomShieldLoader
+author: AvasKr
+version: 1.0.0
+api: 3.0.0
+website: https://github.com/GodVas
